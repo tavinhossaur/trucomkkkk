@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
                 with(
                     Option(R.drawable.ic_round_remove_24, "12 pontos"),
                     Option(R.drawable.ic_round_add_24, "15 pontos"),
-                    Option(R.drawable.ic_round_all_inclusive_24, "Infinto")
+                    Option(R.drawable.ic_round_all_inclusive_24, "Infinito")
                 )
                 onClose { binding.btnConfig.isEnabled = true }
                 onPositive { index: Int, _: Option ->
